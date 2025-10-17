@@ -1,0 +1,59 @@
+!INTERFILE :=
+!imaging modality := nucmed
+;# imaging modality 2 := EMS
+!originating system := simind
+!version of keys := 3.3
+program author := M Ljungberg, Lund University
+program version := V6.2.1
+  
+!GENERAL DATA :=
+original institution := Medical Radiation Physics
+contact person := M Ljungberg
+!data offset in bytes := 0
+!name of data file := ct.ict
+patient name := SMC_defect_90.a00
+!study ID := Aligned CT Map
+exam type := CT DATA
+!patient ID := SIMIND
+  
+!GENERAL IMAGE DATA :=
+;# COREG:Parameter File matched to study :=
+;# Nova EnergyScale Bone/Tissue lines :=
+!type of data := tomographic
+study date := 2021:05:31
+study time := 07:52:18
+imagedata byte order := LITTLEENDIAN
+;# Summation of windows := none
+;# Radionuclide (Therapy) := none
+!total number of images := 64
+!SPECT STUDY (General) :=
+!matrix size [1] := 128
+!matrix size [2] := 128
+!matrix size [3] := 128
+scaling factor (mm/pixel) [1] := 3.4
+scaling factor (mm/pixel) [2] := 3.4
+scaling factor (mm/pixel) [3] := 3.4
+!Image Position First image := -250.0000 -250.0000 105
+!Image Orientation := 1.000 0.000 0.000 0.000 1.000 0.000
+!number of energy windows := 1
+!number of images/energy window := 64
+!number of bytes per pixel := 4
+!number format := short float
+;# Units of data (ECT) := mu
+;# Units of data (TCT) := mu
+;# CT Rescale Intercept := 1.000
+;# CT Rescale Slope := 1.000
+!process status := reconstructed
+maximum pixel count := 0.000
+;# total counts := 0.000
+  
+ ;# Special Selmas exjobb med xcat
+  
+;# COREG:Stationary or movable image (SM_type) := 1
+;# COREG:Image filter type (PR_type) := 0
+;# COREG:CRYlegs: vertical position for legs := 584
+;# COREG:CRYabdm: vertical position for abdomen := 442
+;# COREG:CRYhead: vertical position for head := 190
+;# COREG:CRXmitt: horizontal position for mid := 194
+  
+!END OF INTERFILE :=

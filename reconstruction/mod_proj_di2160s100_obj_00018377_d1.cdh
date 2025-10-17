@@ -1,0 +1,13 @@
+ Data filename: mod_proj_di2160s100_obj_00018377_d1.cdf
+ Number of events:        40960
+ Data mode: histogram
+ Data type: SPECT
+ Calibration factor:     0.10000E+01
+ Start time (s): 0
+ Duration (s):    1
+ Scanner name: smc_mod_proj_di2160s100_obj_00018377_d1
+ Number of bins: 64,64
+ Number of projections: 10
+ Projection angles:  225.5, 207.5, 189.5, 171.5, 153.5, 135.5, 117.5,  99.5,  81.5,  63.5
+ Distance camera surface to COR:  220.0, 220.0, 220.0, 220.0, 220.0, 220.0, 220.0, 220.0, 220.0, 220.0
+ Isotope: Tc-99m,  0:  0
