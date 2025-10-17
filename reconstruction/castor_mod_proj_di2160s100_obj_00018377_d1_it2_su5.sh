@@ -1,0 +1,1 @@
+castor-recon -df mod_proj_di2160s100_obj_00018377_d1.cdh -fout mod_proj_di2160s100_obj_00018377_d1 -it 2:5 -oit 2:2 -dim 64,64,64 -vox 6.80,6.80,6.80 -conf /home/y.zezhang/castor/config -vb 1 -opti MLEM -proj classicSiddon -flip-out Y
