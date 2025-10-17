@@ -1,0 +1,9 @@
+Myocardial perfusion imaging (MPI) by single-photon emission computed tomography (SPECT) is a widely used diagnostic tool for coronary artery disease. 
+However, the procedure requires considerable scanning time, leading to patient discomfort and the potential for motion-induced artifacts. 
+Reducing the number of projection views while keeping the time per view unchanged provides a mechanism to shorten the scanning time. 
+However, this leads to increased sampling artifacts, higher noise, and hence limited image quality. 
+To address these issues, we propose sparse-view SPECT image enhancement (SPASHT), a method that incorporates our understanding of the human visual system within a deep-learning approach to process the sparse-view SPECT images, inherently training the algorithm to improve performance on defect-detection tasks. 
+We objectively evaluated SPASHT on the clinical task of detecting perfusion defects in a retrospective clinical study using data from patients who underwent MPI SPECT, where the defects were clinically realistic and synthetically inserted. 
+The study was performed for different numbers of fewer projection views, including 1/6, 1/3, and 1/2 of the typical projection views for MPI SPECT. Performance on the detection task was quantified using area under the receiver operating characteristic curve (AUC). 
+Images obtained with SPASHT yielded significantly improved AUC compared to those obtained with the sparse-view protocol for all the considered fewer numbers of projection views. To further assess performance, a human observer study on the task of detecting perfusion defects was conducted. 
+Results from the observer study showed improved detection performance with images reconstructed using SPASHT compared to those from the sparse-view protocol. The results provide evidence of the efficacy of SPASHT in improving the quality of sparse-view MPI SPECT images and motivate further clinical validation.
