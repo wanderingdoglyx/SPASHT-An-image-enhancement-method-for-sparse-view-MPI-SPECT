@@ -1,0 +1,2 @@
+/data01/user-storage/zitong/data/cardiac_trainsmission_less/patient_study/src/specific_patients
+/data01/user-storage/zitong/data/cardiac_trainsmission_less/patient_study/data/TMI/test
