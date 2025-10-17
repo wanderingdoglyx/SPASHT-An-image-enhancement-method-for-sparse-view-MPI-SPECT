@@ -1,0 +1,83 @@
+thread_monitor Resource temporarily unavailable in pthread_create
+
+--------------------------------------------------------------------------------
+          std::terminate() detected at Tue Jan 14 14:55:00 2025 -0600
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  GNU C Library            : 2.17 stable
+  MATLAB Architecture      : glnxa64
+  MATLAB Root              : /usr/local/MATLAB/R2019a
+  MATLAB Version           : 9.6.0.1072779 (R2019a)
+  Operating System         : "Red Hat Enterprise Linux Workstation release 7.9 (Maipo)"
+  Process ID               : 113047
+  Processor ID             : x86 Family 6 Model 85 Stepping 4, GenuineIntel
+  Session Key              : 7f52e623-88c4-4d82-819b-3ea97f4f0358
+  Static TLS mitigation    : Disabled: Unable to open display
+
+Fault Count: 1
+
+
+Abnormal termination:
+std::terminate()
+
+Register State (captured):
+  RAX = 0e7b0a630c2e086f  RBX = 00007f8184269d98
+  RCX = 0000000000000000  RDX = 00007f818424ae00
+  RSP = 00007f81590f5880  RBP = 00007f81590f5c40
+  RSI = 00007f81842123c6  RDI = 00007f81590f5890
+
+   R8 = 00007f8184259d08   R9 = 00007f818652c740
+  R10 = 00007f81590f59e0  R11 = 10540a6c00000037
+  R12 = 00007f8184259d08  R13 = 00007f81590f6000
+  R14 = 00007f81590f64f0  R15 = 00007f81590f64c0
+
+  RIP = 00007f81841621ae  EFL = 00007f817c5e1db0
+
+   CS = 0358   FS = 8744   GS = 7f81
+
+Stack Trace (captured):
+[  0] 0x00007f8184159713    /usr/local/MATLAB/R2019a/bin/glnxa64/libmwfl.so+00829203
+[  1] 0x00007f818415990c    /usr/local/MATLAB/R2019a/bin/glnxa64/libmwfl.so+00829708 _ZN10foundation4core4diag15stacktrace_base7captureEm+00000028
+[  2] 0x00007f818415c052    /usr/local/MATLAB/R2019a/bin/glnxa64/libmwfl.so+00839762
+[  3] 0x00007f81736d0553   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+01213779
+[  4] 0x00007f81736d3157   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+01225047
+[  5] 0x00007f81736d338a   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+01225610
+[  6] 0x00007f81736d3951   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+01227089
+[  7] 0x00007f81736d48d7   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+01231063
+[  8] 0x00007f81862473a6 /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00582566
+[  9] 0x00007f81862463d9 /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00578521
+[ 10] 0x00007f8186246d2d /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00580909 __gxx_personality_v0+00000717
+[ 11] 0x00007f8185fb1f03 /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libgcc_s.so.1+00065283
+[ 12] 0x00007f8185fb226b /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libgcc_s.so.1+00066155 _Unwind_RaiseException+00000251
+[ 13] 0x00007f81862475fb /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00583163 __cxa_throw+00000091
+[ 14] 0x00007f818626ff2e /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00749358 _ZSt20__throw_system_errori+00000126
+[ 15] 0x00007f81862720d8 /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00757976 _ZNSt6thread4joinEv+00000024
+[ 16] 0x00007f817367d1f9   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00872953
+[ 17] 0x00007f817367d681   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00874113
+[ 18] 0x00007f817367f4a9   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00881833
+[ 19] 0x00007f8185c0dd39                                   /lib64/libc.so.6+00236857
+[ 20] 0x00007f8185c0dd87                                   /lib64/libc.so.6+00236935
+[ 21] 0x00007f81827a8b1a   /usr/local/MATLAB/R2019a/bin/glnxa64/libtbb.so.2+00117530
+[ 22] 0x00007f81827b2b09   /usr/local/MATLAB/R2019a/bin/glnxa64/libtbb.so.2+00158473
+[ 23] 0x00007f81725b7815 /usr/local/MATLAB/R2019a/bin/glnxa64/libmwsearch_path_impl.so+00509973
+[ 24] 0x00007f81725af151 /usr/local/MATLAB/R2019a/bin/glnxa64/libmwsearch_path_impl.so+00475473
+[ 25] 0x00007f81725bcc84 /usr/local/MATLAB/R2019a/bin/glnxa64/libmwsearch_path_impl.so+00531588
+[ 26] 0x00007f817367cf5d   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00872285
+[ 27] 0x00007f817367d0be   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00872638
+[ 28] 0x00007f8183c033ff /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmlutil.so+07521279 _ZNSt13__future_base13_State_baseV29_M_do_setEPSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEPb+00000031
+[ 29] 0x00007f818654020b                             /lib64/libpthread.so.0+00025099
+[ 30] 0x00007f817367dbae   /usr/local/MATLAB/R2019a/bin/glnxa64/libmwmcr.so+00875438
+[ 31] 0x00007f8186271e5f /usr/local/MATLAB/R2019a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00757343
+[ 32] 0x00007f8186541ea5                             /lib64/libpthread.so.0+00032421
+[ 33] 0x00007f8185cd29fd                                   /lib64/libc.so.6+01042941 clone+00000109
+[ 34] 0x0000000000000000                                   <unknown-module>+00000000
+
+** This crash report has been saved to disk as /home/y.zezhang/matlab_crash_dump.113047-1 **
+
+
+
+MATLAB is exiting because of fatal error
