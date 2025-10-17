@@ -1,3 +1,0 @@
-ze_subsample_run_reorient_window.m
-ze_subsample_run_reorient_window_de_training.m
-ze_subsample_run_reorient_window_asq.m
