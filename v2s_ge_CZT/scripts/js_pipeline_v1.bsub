@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#BSUB -q general
+#BSUB -G compute-a.jha
+#BSUB -R 'gpuhost'
+#BSUB -R "rusage[mem=64GB]"
+#BSUB -gpu "num=1:mode=exclusive_process:gmodel=TeslaV100_SXM2_32GB" 
+#BSUB -g /rahman.m/a.jha
+#BSUB -J DBLR_DN28_PP[1-30,51-70]
+#BSUB -o /scratch1/fs1/a.jha/asheq/adaptive_spect/job_outputs/DBLR_DN28_PP.%I.out
+#BSUB -e /scratch1/fs1/a.jha/asheq/adaptive_spect/job_outputs/DBLR_DN28_PP.%I.err
+#BSUB -a 'docker(asheq/joint_recon:fs4_learning_tf22)'
+
+./scripts/scr_pipeline_v1.sh ${LSB_JOBINDEX}
