@@ -1,0 +1,91 @@
+User,ImageID,Defect_Present,Confidence,Coordinates,Extent,Severity,Date
+yu.zitong@wustl.edu,3,FALSE,3,"X=0.9720, Y=0.1596",Small (30 degrees),Mild (17.5%),6/15/2024
+yu.zitong@wustl.edu,3,TRUE,6,,,,6/15/2024
+yu.zitong@wustl.edu,21,FALSE,6,,,,6/15/2024
+yu.zitong@wustl.edu,41,TRUE,2,"X=0.3086, Y=0.3931",Small (30 degrees),Moderate (25%),6/15/2024
+yu.zitong@wustl.edu,36,FALSE,1,"X=0.9768, Y=0.1397",Large (90 degrees),Moderate (25%),6/15/2024
+yu.zitong@wustl.edu,43,FALSE,6,,,,6/15/2024
+yu.zitong@wustl.edu,28,FALSE,3,"X=0.9726, Y=0.1718",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,5,FALSE,5,,,,6/16/2024
+yu.zitong@wustl.edu,5,TRUE,3,"X=0.7036, Y=0.0991",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,10,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,13,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,8,FALSE,5,,,,6/16/2024
+yu.zitong@wustl.edu,8,TRUE,2,"X=0.9720, Y=0.1079",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,31,TRUE,1,"X=0.9655, Y=0.1586",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,21,TRUE,2,"X=0.9738, Y=0.0947",Medium (60 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,38,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,40,TRUE,7,,,,6/16/2024
+yu.zitong@wustl.edu,26,FALSE,3,"X=0.9685, Y=0.1828",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,23,TRUE,5,,,,6/16/2024
+yu.zitong@wustl.edu,33,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,39,TRUE,4,,,,6/16/2024
+yu.zitong@wustl.edu,18,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,38,TRUE,3,"X=0.9696, Y=0.0837",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,39,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,29,TRUE,4,,,,6/16/2024
+yu.zitong@wustl.edu,25,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,13,TRUE,5,,,,6/16/2024
+yu.zitong@wustl.edu,18,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,2,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,45,TRUE,2,"X=0.9732, Y=0.1013",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,19,TRUE,2,"X=0.9714, Y=0.0947",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,41,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,4,FALSE,5,,,,6/16/2024
+yu.zitong@wustl.edu,16,TRUE,7,,,,6/16/2024
+yu.zitong@wustl.edu,22,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,33,TRUE,3,"X=0.9643, Y=0.1564",Medium (60 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,17,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,20,TRUE,2,"X=0.9726, Y=0.0947",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,22,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,35,TRUE,1,"X=0.9732, Y=0.0859",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,20,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,42,FALSE,5,,,,6/16/2024
+yu.zitong@wustl.edu,7,TRUE,5,,,,6/16/2024
+yu.zitong@wustl.edu,30,TRUE,3,"X=0.9750, Y=0.0815",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,26,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,43,TRUE,2,"X=0.9661, Y=0.1608",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,27,TRUE,7,,,,6/16/2024
+yu.zitong@wustl.edu,34,FALSE,1,"X=0.9750, Y=0.1542",Large (90 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,27,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,44,TRUE,1,"X=0.9756, Y=0.1013",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,44,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,32,TRUE,2,"X=0.9631, Y=0.1630",Medium (60 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,25,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,1,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,45,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,16,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,10,TRUE,2,"X=0.9702, Y=0.0991",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,19,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,14,FALSE,2,"X=0.9756, Y=0.1410",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,2,TRUE,7,,,,6/16/2024
+yu.zitong@wustl.edu,40,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,15,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,12,TRUE,3,"X=0.9702, Y=0.1035",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,36,TRUE,3,"X=0.9726, Y=0.0903",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,11,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,12,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,17,TRUE,3,"X=0.9756, Y=0.1454",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,1,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,9,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,30,FALSE,2,"X=0.9738, Y=0.1652",Medium (60 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,29,FALSE,1,"X=0.9732, Y=0.1608",Medium (60 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,24,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,9,TRUE,3,"X=0.9726, Y=0.1079",Small (30 degrees),Mild (17.5%),6/16/2024
+yu.zitong@wustl.edu,31,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,14,TRUE,3,"X=0.9673, Y=0.1718",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,24,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,11,TRUE,2,"X=0.9720, Y=0.1013",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,23,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,34,TRUE,1,"X=0.9726, Y=0.0859",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,6,FALSE,6,,,,6/16/2024
+yu.zitong@wustl.edu,4,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,32,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,6,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,28,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,7,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,37,FALSE,7,,,,6/16/2024
+yu.zitong@wustl.edu,35,FALSE,1,"X=0.9768, Y=0.1542",Large (90 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,15,TRUE,2,"X=0.9679, Y=0.1762",Small (30 degrees),Moderate (25%),6/16/2024
+yu.zitong@wustl.edu,42,TRUE,6,,,,6/16/2024
+yu.zitong@wustl.edu,37,TRUE,2,"X=0.9708, Y=0.0881",Small (30 degrees),Mild (17.5%),6/16/2024
